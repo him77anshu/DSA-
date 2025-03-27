@@ -36,6 +36,6 @@ Feel free to explore the folders for specific problems or topics.
 
 To get a copy of this repository up and running on your local machine, follow these steps:
 
-1. Clone the repository:
+1. Clone the repository:https://github.com/him77anshu/DSA-.git
    ```bash
   
