@@ -14,7 +14,7 @@ Welcome to my DSA repository! This repository contains my daily solutions to var
 
 ## Introduction
 
-In this repository, you will find solutions to a variety of DSA problems, ranging from basic to advanced levels. Each solution is implemented in [your preferred programming language(s)] and is accompanied by explanations, time and space complexity analysis, and any relevant notes.
+In this repository, you will find solutions to a variety of DSA problems, ranging from basic to advanced levels. Each solution is implemented in ##java and is accompanied by explanations, time and space complexity analysis, and any relevant notes.
 
 ## Problem Categories
 
