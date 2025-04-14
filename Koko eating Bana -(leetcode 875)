@@ -24,3 +24,39 @@ Constraints:
 1 <= piles.length <= 104
 piles.length <= h <= 109
 1 <= piles[i] <= 109
+
+// CODE //
+
+class Solution {
+    public int minEatingSpeed(int[] piles, int h) {
+        int k =0;
+        Arrays.sort(piles);
+        int n=piles.length;
+        int low =1;
+        int high =piles[n-1];
+        
+        while(low<=high){
+           int mid = (low+high)/2;
+           if(isPossible(piles,mid,h)){
+                k= mid ;
+                high =mid-1;
+           }else{
+             low = mid+1;
+           }
+        }
+
+        return k ;
+    }
+
+    public static boolean isPossible(int arr[] , int k , int h){
+        long count =0;
+        for(int i=0;i<arr.length ; i++){
+            count += (arr[i] - 1) / k +1 ;
+        }
+       
+       if(count<=h){
+            return true ;
+        }
+     return false ;
+    }
+}
